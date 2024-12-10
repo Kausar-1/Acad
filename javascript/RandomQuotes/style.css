@@ -1,0 +1,29 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#quoteImage {
+    width: 20px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+#quoteImage:hover {
+    transform: scale(1.1);
+}
+
+#quote {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
