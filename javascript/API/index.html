@@ -7,20 +7,24 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h2>Silicon Mart</h2>
-    <h1>Product List</h1>
-    <div id="search-container">
-        <input type="text" id="search-bar" placeholder="Search for products...">
-        <button id="search-button">Search</button>
-    </div>
-    <div id="product-container"></div>
-
-    <!-- Modal Structure -->
-    <div id="product-modal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <div id="modal-details"></div>
+    <div id="main-page">
+        <h1>Product List</h1>
+        <div id="search-container">
+            <input type="text" id="search-bar" placeholder="Search for products...">
+            <button id="search-button">Search</button>
         </div>
+        <div id="filter-container">
+            <label for="category-filter">Filter by Category:</label>
+            <select id="category-filter">
+                <option value="all">All</option>
+            </select>
+        </div>
+        <div id="product-container"></div>
+    </div>
+
+    <div id="product-details-page" class="hidden">
+        <button id="back-button">Back</button>
+        <div id="product-details"></div>
     </div>
 
     <script src="script.js"></script>

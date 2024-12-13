@@ -111,3 +111,19 @@ h1 {
     text-decoration: none;
     cursor: pointer;
 }
+
+/* Filter Container Styles */
+#filter-container {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
+    margin-right:20px ;
+    align-items: center;
+}
+
+#category-filter {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: 10px;
+}
